@@ -1,4 +1,7 @@
 def subtract_two_numbers():
+
+# Subtracts two numbers entered by the user and prints the result.
+
     try:
         num1 = float(input("Enter the first number: "))
         num2 = float(input("Enter the second number: "))
