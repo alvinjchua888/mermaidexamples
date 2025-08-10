@@ -11,7 +11,13 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    A[Excel File] --> B[PDP Launchpad]
-    B --> C[CDL]
-    C --> D[SEMANTIC]
+    A[RCCP] --> B[EXCEL]
+    B --> C[PDP]
+    C --> D[CDL]
+    D --> S[Semantic]
+    E[Costs] --> B
+    F[Sales order]--> D
+    G[Delivery] --> D
+
+
 ```
