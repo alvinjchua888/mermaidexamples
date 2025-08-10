@@ -11,7 +11,7 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    Excel File --> PDP Launchpad
-    PDP Launchpad --> CDL
-    CDL --> SEMANTIC
+    A[Excel File] --> B[PDP Launchpad]
+    B --> C[CDL]
+    C --> D[SEMANTIC]
 ```
