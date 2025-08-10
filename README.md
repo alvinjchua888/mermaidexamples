@@ -8,3 +8,10 @@ flowchart TD
     B -- No --> D[Fix it]
     D --> B
 ```
+
+```mermaid
+flowchart TD
+    Excel File --> PDP Launchpad
+    PDP Launchpad --> CDL
+    CDL --> SEMANTIC
+```
