@@ -1,0 +1,2 @@
+# mermaidexamples
+Examples of mermaid
