@@ -26,7 +26,11 @@ pip install -r requirements.txt
 1. Start the Flask server:
 
 ```bash
+# For production (recommended)
 python excel_to_html_app.py
+
+# For development with debug mode
+FLASK_DEBUG=true python excel_to_html_app.py
 ```
 
 2. Open your web browser and navigate to:
